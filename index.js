@@ -475,7 +475,7 @@ async function handleMessage(api, event) {
         if (!isAdmin) {
           commandReply = `Teri ma ki ch.. tere baap ka nokar nahi hu randi ke!`;
         } else {
-          commandReply = `Ye h mera prefix ${prefix} ko prefix ho use lgake bole ye h mera prefix or Ashu Khan mera boss h ab bol mdrxhod kya kam h tujhe mujhse bsdike`;
+          commandReply = `Ye h mera prefix ${prefix} ko prefix ho use lgake bole ye h mera prefix or Chikna mera boss h ab bol mdrxhod kya kam h tujhe mujhse bsdike`;
         }
     }
 

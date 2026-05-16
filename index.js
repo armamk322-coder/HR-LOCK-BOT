@@ -14,7 +14,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const login = require('fca-horizon-remake');
+const login = require('biar-fca');
 const fs = require('fs');
 const http = require('http');
 const { Server } = require('socket.io');

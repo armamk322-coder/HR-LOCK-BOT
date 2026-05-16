@@ -1,10 +1,9 @@
 services:
   - type: web
-    name: devil-bot
+    name: hr-bot
     env: node
-    plan: free
-    buildCommand: "npm install"
-    startCommand: "npm start"
+    buildCommand: npm install
+    startCommand: node index.js
     envVars:
-      - key: NODE_VERSION
-        value: 18
+      - key: PORT
+        value: 20868
